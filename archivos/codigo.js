@@ -232,9 +232,9 @@ btnIniciar.addEventListener("click", function() {
     let password = document.getElementById("password").value;
 
     // Validar los campos de entrada
-    if (username != admin) {
+    if (username != "admin") {
         alert("El nombre de usuario no es correcto");
-    } else if (password != admin) {
+    } else if (password != "admin") {
         alert("La contraseña no es correcta");
     } else {
         // Permitir que el formulario se envíe
