@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MiRutinaDeHoy</title>
+        <link rel="stylesheet" href="./archivos/style.css">
+    </head>
+    <body>
+        <h1 class="titulo">Mi Rutina de Hoy</h1>
+        <section id="login">
+            <h2 class="subtitulo">Ingresa tus datos para iniciar sesión</h2>
+                <form>
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username">
+                    <br>
+                    <br>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                    <br>
+                    <br>
+                    <button type="button" id="submit">Iniciar</button>
+                </form>
+        </section>
+
+        <section id="ejercicios">
+            <h2 class="subtitulo">Elige si deseas rutinas preescritas o armarla tú</h2>
+            <p><em>(Elige solo 1)</em></p>
+            <div id="eleccion">
+                <label>
+                    <input type="checkbox" name="rutinaPreescrita" id="rutinaPreescrita" value="1">
+                    Rutina Preescrita (Fullbody, Tren Superior o Tren Inferior)
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="rutinaPorGrupos" id="rutinaPorGrupos" value="1">
+                    Rutina Por Grupos Musculares (Pecho, Cuádriceps, Glúteo, etc.)
+                </label>
+                <br>
+            </div>
+            <div id="preescrita">
+            <h3 class="subsubtitulo">Elige tu rutina y números de ejercicios</h3>     
+            <p><em>(Elige solo 1)</em></p>       
+                <form>
+                    <label>
+                        <input type="checkbox" name="fullbody" id="fullbody" value="1">
+                        Fullbody
+                    </label>
+                    <br>
+                    <label>
+                        Número de ejercicios de Fullbody:
+                        <select id="listaFullbody">
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="trenSuperior" id="trenSuperior" value="1">
+                        Tren Superior
+                    </label>
+                    <br>
+                    <label>
+                        Número de ejercicios de Tren Superior:
+                        <select id="listaTrenSuperior">
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="trenInferior" id="trenInferior" value="1">
+                        Tren Inferior
+                    </label>
+                    <br>
+                    <label>
+                        Número de ejercicios de Tren Inferior:
+                        <select id="listaTrenInferior">
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <div id="armada">
+                <h3 class="subsubtitulo">Elige tus grupos musculares y número de ejercicios</h3>
+                <p><em>(Elige máximo 12 "ejercicios")</em></p>
+                <div id="tronco">  
+                    <form>
+                        <label>
+                            <input type="checkbox" name="espalda" id="espalda" value="1">
+                            Espalda
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Espalda:
+                            <select id="listaEspalda">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="pecho" id="pecho" value="1">
+                            Pecho
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Pecho:
+                            <select id="listaPecho">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="core" id="core" value="1">
+                            Core
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Core:
+                            <select id="listaCore">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+                <div id="miembroSuperior">
+                    <form>
+                        <label>
+                            <input type="checkbox" name="biceps" id="biceps" value="1">
+                            Bíceps
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Bíceps:
+                            <select id="listaBiceps">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="triceps" id="triceps" value="1">
+                            Tríceps
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Tríceps:
+                            <select id="listaTriceps">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="hombro" id="hombro" value="1">
+                            Hombro
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Hombro:
+                            <select id="listaHombro">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+                <div id="miembroInferior">
+                    <form>
+                        <label>
+                            <input type="checkbox" name="cuadriceps" id="cuadriceps" value="1">
+                            Cuádriceps
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Cuádriceps:
+                            <select id="listaCuadriceps">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="gluteo" id="gluteo" value="1">
+                            Glúteo
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Glúteo:
+                            <select id="listaGluteo">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="isquios" id="isquios" value="1">
+                            Isquios
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Isquios:
+                            <select id="listaIsquios">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="pantorrilla" id="pantorrilla" value="1">
+                            Pantorrilla
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Pantorrilla:
+                            <select id="listaPantorrilla">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="accesorios" id="accesorios" value="1">
+                            Accesorios (abducción cadera, tibial anterior, etc.)
+                        </label>
+                        <br>
+                        <label>
+                            Número de ejercicios de Accesorios de Miembro Inferior:
+                            <select id="listaAccesorios">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <button id="sigteEjercicios">Siguiente</button>
+        </section>
+        <section id="metodosEIntensidad">
+            <h2 class="subtitulo">Elige tus series por ejercicio, método de entrenamiento e intensidad</h2>
+            <div id="series">
+                <h3 class="subsubtitulo">Series</h3>
+                <p><em>(Elige solo 1)</em></p>
+                <form>
+                    <label>
+                        <input type="checkbox" name="serie3" id="serie3" value="1">
+                            3 por Ejercicio
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="serie4" id="serie4" value="1">
+                            4 por Ejercicio
+                    </label>
+                    <br>
+                </form>
+            </div>
+            <div id="metodos">
+                <h3 class="subsubtitulo">Métodos</h3>
+                <p><em>(Elige solo 1)</em></p>
+                <form>
+                    <label>
+                        <input type="checkbox" name="fuerza" id="fuerza" value="1">
+                        Fuerza: Reps (4 a 6) y Pausa (2,5 a 4 min)
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="fuerzaResistencia" id="fuerzaResistencia" value="1">
+                        Fuerza - Resistencia: Reps (7 a 10) y Pausa (2 a 3,5 min)
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="hipertrofia" id="hipertrofia" value="1">
+                        Hipertrofia: Reps (11 a 14) y Pausa (1,5 a 3 min)
+                    </label>
+                    <br>
+                </form>
+            </div>
+            <div id="intensidad">
+                <h3 class="subsubtitulo">Intensidades</h3>
+                <p><em>(Elige solo 1)</em></p>
+                <form>
+                    <label>
+                        <input type="checkbox" name="alta" id="alta" value="1">
+                        Alta: RIR (0-1)
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="moderada" id="moderada" value="1">
+                        Moderada: RIR (1-2)
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="media" id="media" value="1">
+                        Media: RIR (2-3)
+                    </label>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <button id="sigteEstructura">Siguiente</button>
+        </section>
+        <section id="rutinaFinal">
+            <h2 class="subtitulo">Tu rutina de hoy</h2>
+            <p id="rutina">RUTINA</p>
+            <br>
+            <table id="tabla">
+                <thead>
+                  <tr>
+                    <th>Nombre</th>
+                    <th>Agarre</th>
+                    <th>Posición</th>
+                    <th>Variante</th>
+                    <th>Objetivo</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Pausa</th>
+                    <th>Intensidad</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+              
+            <br>
+            <p>Si no te gustó, la puedes volver a randomizar con el siguiente botón</p>
+            <br>
+            <button id="aleat">Aleatorizar</button>
+            <br>
+            <p>Para reiniciar todo y reestructurar tu rutina presiona más abajo</p>
+            <br>
+            <button id="reiniciar">Reiniciar todo</button>
+        </section>
+        <script src="./archivos/codigo.js"></script>
+    </body>
+</html>

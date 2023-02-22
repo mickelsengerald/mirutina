@@ -1,0 +1,86 @@
+Nombre;Agarre;Posicion;Variante;Objetivo
+Dominada ;Prono, Neutro, Supino;Ancho, Normal, Angosto;Normal, Negativa, Lastre;Espalda
+Jalón polea alta ;Prono, Neutro, Supino;Ancho, Normal, Angosto;Unilateral, Bilateral;Espalda
+Jalón polea horizontal;Prono, Neutro, Supino;Ancho, Normal, Angosto;Unilateral, Bilateral;Espalda
+Remo con barra;Prono, Supino;Ancho, Normal, Angosto;Libre, Smith;Espalda
+Remo con mancuerna;Prono, Neutro, Supino;Pecho en banco, Afirmado en rack;Unilateral, Bilateral;Espalda
+Jalón horizontal máquina;Prono, Neutro, Supino;Normal;Unilateral, Bilateral;Espalda
+Pullover en polea;Prono, Supino;Ancho, Normal, Angosto;Unilateral, Bilateral;Espalda
+Press banco plano;Prono;Normal;Barra, Mancuerna;Pecho
+Press banco inclinado;Prono;Normal;Barra, Mancuerna;Pecho
+Press banco declinado;Prono;Normal;Barra, Mancuerna;Pecho
+Cross X polea;Neutro;Inclinado;Unilateral, Bilateral;Pecho
+Press en polea;Prono, Neutro, Supino;Normal, Inclinado;Unilateral, Bilateral;Pecho
+Vuelo con mancuerna;Neutro;Plano, Inclinado;Normal;Pecho
+Vuelo en polea;Neutro, Prono;Sentado, De pie;Normal;Pecho
+Fondos;Neutro;Normal, Amplio;Normal, Lastre;Pecho
+Empuje en polea direccional;Neutro, Prono, Supino;Normal, Inclinado;Hacia arriba, Hacia abajo;Pecho
+Flexiones;Neutro, Prono, Supino;Normal, Inclinado, Declinado;Suelo, Miniparalelas;Pecho
+Plancha isométrica;Neutro, Supino;Pies juntos, Pies separados;Normal, Alternado, Unilateral;Core
+Twist ruso;Normal;Normal, Declinado;Disco, Mancuerna, Kettle;Core
+Abdominales;Normal;Normal, Declinado;Disco, Mancuerna, Kettle;Core
+Extensiones lumbares;Normal;Boca abajo, Máquina;Disco, Mancuerna, Kettle;Core
+Abdominales máquina;Normal;Normal;Máquina c/rodilla, Máquina s/rodilla;Core
+Rodillas al pecho / Bicicleta;Normal;En suelo;Normal, Alternado;Core
+Dragon flag;Normal;Inclinado, En suelo;Estirado, C/flexión de cadera y rodilla;Core
+Elevación piernas;Normal;En suelo;Normal, Alternado;Core
+L sit;Neutro, Prono, Supino;L normal, L colgado;En suelo, Paralelas, Barra;Core
+Pies a la barra;Neutro, Prono, Supino;Colgado;Barra;Core
+Curl supino con mancuerna;Supino;Sentado, Inclinado, De pie;Unilateral, Bilateral;Bíceps
+Curl neutro con mancuerna;Neutro;Sentado, Inclinado, De pie;Unilateral, Bilateral;Bíceps
+Curl prono con mancuerna;Prono;Sentado, Inclinado, De pie;Unilateral, Bilateral;Bíceps
+Curl banco scott;Supino;Sentado;Mancuerna, Barra z;Bíceps
+Curl supino con barra;Supino;De pie;Barra, Barra z;Bíceps
+Curl prono con barra;Prono;De pie;Barra;Bíceps
+Curl neutro con barra;Neutro;De pie;Barra neutra;Bíceps
+Curl en máquina;Prono;Sentado;Unilateral, Bilateral;Bíceps
+Curl en polea;Prono, Neutro, Supino;De pie;Unilateral, Bilateral;Bíceps
+Curl alternado con mancuerna;Prono, Neutro, Supino;Sentado, Inclinado, De pie;Normal, Cruzado;Bíceps
+Curl con giro;Prono a supino;Sentado, Inclinado, De pie;Unilateral, Bilateral;Bíceps
+Extensión polea prono;Prono;De pie;Unilateral, Bilateral;Tríceps
+Extensión polea neutro;Neutro;De pie;Unilateral, Bilateral;Tríceps
+Extensión polea supino;Supino;De pie;Unilateral, Bilateral;Tríceps
+Patada en polea;Neutro;De pie;Normal;Tríceps
+Máquina tríceps;Neutro;Sentado;Unilateral, Bilateral;Tríceps
+Rompe cráneo con barra;Prono, Neutro;Banco placo;Barra, Barra neutra;Tríceps
+Rompe cráneo mancuerna;Prono, Neutro, Giro;Banco placo;Unilateral, Bilateral;Tríceps
+Extensión polea cruzada;Prono;De pie;Unilateral, Bilateral;Tríceps
+Extensión polea con implemento;Cuerda, V;De pie;Normal;Tríceps
+Press militar;Prono;Sentado, Inclinado, De pie;Mancuerna, Barra, Smith;Hombro
+Press rango completo;Prono, Neutro, Supino;Sentado, Inclinado, De pie;Mancuerna, Barra, Smith;Hombro
+Arnold press;Supino a prono;Sentado, Inclinado, De pie;Mancuerna;Hombro
+Vuelo frontal;Prono, Neutro, Supino;Sentado, De pie;Mancuerna, Barra, Barra z;Hombro
+Máquina press de hombro;Prono, Neutro;Sentado;Apoyo espalda, Apoyo pecho;Hombro
+Vuelo lateral con mancuerna;Prono;De pie, Inclinado, Sentado;Unilateral, Bilateral;Hombro
+Vuelo lateral en polea;Prono;De pie, Inclinado;Unilateral, Bilateral;Hombro
+Press hombro en polea;Prono, Neutro, Supino;Sentado, De pie;Unilateral, Bilateral;Hombro
+Facepull en polea con cuerda;Prono;Sentado, De pie;Bilateral;Hombro
+Vuelo posterior con mancuerna;Prono, Neutro;Sentado pecho en rodilla;Bilateral;Hombro
+Prensa;No aplica;Pies juntos, Normal, Sumo;Unilateral, Bilateral;Cuádriceps
+Hack squat;No aplica;Pies juntos, Normal;Unilateral, Bilateral;Cuádriceps
+Sentadilla libre;Normal, C/déficit;Pies juntos, Normal, Sumo;Tras nuca, Frontal;Cuádriceps
+Sentadilla smith;Normal, C/déficit;Pies juntos, Normal, Sumo;Tras nuca, Frontal;Cuádriceps
+Estocada caminando x pierna;Normal;De pie;Mancuerna, Barra tras nuca;Cuádriceps
+Estocada estática x pierna;Normal, C/déficit;De pie;Libre, Smith;Cuádriceps
+Extensión cuádriceps máquina;Normal;Sentado;Unilateral, Bilateral;Cuádriceps
+Sissy squat;Normal;De pie;Máquina sissy, Banda elástica, Libre;Cuádriceps
+Pistol squat;Normal;De pie;Libre, TRX, Banda elástica;Cuádriceps
+Hipthrust libre;Normal;Máquina, Banco;Unilateral, Bilateral;Glúteo
+Patada en polea;Normal;De pie;Diagonal;Glúteo
+Patada en máquina;Normal;Cuadrupedia;Normal;Glúteo
+Patada con banda;Normal;Cuadrupedia;Estirada, C/flexión rodilla;Glúteo
+Booty builder;Normal;Normal;Normal;Glúteo
+Pull polea;Normal;De pie;Normal;Glúteo
+Good morning;Normal;De pie;Barra tras nuca, Mancuerna en pecho;Glúteo
+Peso muerto libre;Mixto, Prono;Pies juntos, Normal, Sumo;Unilateral, Bilateral;Isquiotibial
+Peso muerto smith;Mixto, Prono;Pies juntos, Normal, Sumo;Unilateral, Bilateral;Isquiotibial
+Curl isquio máquina;Normal;Boca abajo, Sentado;Unilateral, Bilateral;Isquiotibial
+Búlgara;Normal;De pie;Máquina, Banco, TRX;Isquiotibial
+Curl nórdico;Normal;De rodillas;Completo, Negativa, Con banda;Isquiotibial
+Jefferson curl;Normal, Neutro;Pies juntos;En step, En piso;Isquiotibial
+Curl isquio en polea;Normal;De pie, Boca abajo;Unilateral;Isquiotibial
+Máquina sóleo;Normal;Sentado;Unilateral, Bilateral;Pantorrilla
+Calf raises;En step;Libre, Smith;Unilateral, Bilateral;Pantorrilla
+Tibial anterior;Talón en máquina;Dorsiflexión;Máquina sóleo, Banda;Tibial anterior
+Abducción de cadera;Normal;Sentado, De pie;Máquina, Polea, Banda;Abductores
+Aducción de cadera;Normal;Sentado, De pie;Máquina, Polea, Banda;Aductores
