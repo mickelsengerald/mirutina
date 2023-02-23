@@ -322,6 +322,8 @@ checkFullbody.addEventListener('click', function() {
         checkTrenInferior.checked = false
         listaFullbody.selectedIndex = 0;
         listaFullbody.style.display = 'block';
+        listaTrenInferior.style.display = 'none';
+        listaTrenSuperior.style.display = 'none';
     } else {
         listaFullbody.style.display = 'none';
     }
@@ -333,6 +335,8 @@ checkTrenSuperior.addEventListener('click', function() {
         checkTrenInferior.checked = false
         listaTrenSuperior.selectedIndex = 0;
         listaTrenSuperior.style.display = 'block';
+        listaFullbody.style.display = 'none';
+        listaTrenInferior.style.display = 'none';
     } else {
         listaTrenSuperior.style.display = 'none';
     }
@@ -344,6 +348,8 @@ checkTrenInferior.addEventListener('click', function() {
         checkFullbody.checked = false
         listaTrenInferior.selectedIndex = 0;
         listaTrenInferior.style.display = 'block';
+        listaTrenSuperior.style.display = 'none';
+        listaFullbody.style.display = 'none';
     } else {
         listaTrenInferior.style.display = 'none';
     }
@@ -650,7 +656,49 @@ btnAleatorio.addEventListener("click", function (){
 })
 
 btnReiniciar.addEventListener("click", function (){
-    location.reload()
+    while (cuerpoTabla.firstChild) {
+        cuerpoTabla.removeChild(cuerpoTabla.firstChild);
+    }
+    sectionRutinaFinal.style.display="none" 
+    sectionEjercicios.style.display="block"
+    checkPre.checked = false
+    checkPor.checked = false
+    checkFullbody.checked = false
+    checkTrenSuperior.checked = false
+    checkTrenInferior.checked = false
+    checkEspalda.checked = false
+    checkPecho.checked = false
+    checkCore.checked = false
+    checkBiceps.checked = false
+    checkTriceps.checked = false
+    checkHombro.checked = false
+    checkCuadriceps.checked = false
+    checkGluteo.checked = false
+    checkIsquios.checked = false
+    checkPantorrilla.checked = false
+    checkAccesorios.checked = false
+    checkSerie3.checked = false 
+    checkSerie4.checked = false 
+    checkFuerza.checked = false 
+    checkFuerzaResistencia.checked = false 
+    checkHipertrofia.checked = false 
+    checkAlta.checked = false 
+    checkModerada.checked = false 
+    checkMedia.checked = false 
+    listaFullbody.style.display = "none"
+    listaTrenSuperior.style.display = "none"
+    listaTrenInferior.style.display = "none"
+    listaEspalda.style.display = "none"
+    listaPecho.style.display = "none"
+    listaCore.style.display = "none"
+    listaBiceps.style.display = "none"
+    listaTriceps.style.display = "none"
+    listaHombro.style.display = "none"
+    listaCuadriceps.style.display = "none"
+    listaGluteo.style.display = "none"
+    listaIsquios.style.display = "none"
+    listaPantorrilla.style.display = "none"
+    listaAccesorios.style.display = "none"
 })
     
 function crearFullbody (){
